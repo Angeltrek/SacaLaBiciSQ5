@@ -15,6 +15,12 @@ class LoginActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         initializeBinding()
+
+
+        binding.bBack.setOnClickListener {
+            val intent = Intent(this, SessionActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initializeBinding() {

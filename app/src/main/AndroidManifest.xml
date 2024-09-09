@@ -31,6 +31,12 @@
             android:theme="@style/Theme.Session.NoActionBar"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".frameworks.views.activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Session.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
