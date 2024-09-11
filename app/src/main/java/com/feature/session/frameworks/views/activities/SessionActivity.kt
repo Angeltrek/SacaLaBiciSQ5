@@ -21,6 +21,11 @@ class SessionActivity: AppCompatActivity() {
                 val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
             }
+
+            binding.bRegister.setOnClickListener {
+                val intent = Intent(this, RegisterActivity::class.java)
+                startActivity(intent)
+            }
         }
 
         private fun initializeBinding() {
