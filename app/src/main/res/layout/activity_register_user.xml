@@ -179,7 +179,7 @@
     <TextView
         android:id="@+id/txtFecha"
         android:text="@string/tv_fecha"
-        android:textSize="22dp"
+        android:textSize="19dp"
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,19 +207,12 @@
         android:text="Continuar"
         android:textAllCaps="false"
         android:textSize="14sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         app:cornerRadius="14dp"
         app:backgroundTint="@color/yellow"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@id/container"
         app:layout_constraintEnd_toEndOf="@id/container"
-        app:layout_constraintTop_toBottomOf="@id/lAdvertisement" />
-
-    <!-- Libreria DatePicker -->
-    <DatePicker
-        android:id="@+id/datePicker"
-        android:layout_width="500dp"
-        android:layout_height="400dp"
-        android:visibility="gone" />
+        app:layout_constraintTop_toBottomOf="@id/txtFecha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
