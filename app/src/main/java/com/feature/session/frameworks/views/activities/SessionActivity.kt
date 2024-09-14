@@ -16,13 +16,13 @@ class SessionActivity: AppCompatActivity() {
 
             initializeBinding()
 
-            binding.bLogin.setOnClickListener {
+            binding.BLogin.setOnClickListener {
 //                viewModel.login()
                 val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
             }
 
-            binding.bRegister.setOnClickListener {
+            binding.BRegister.setOnClickListener {
                 val intent = Intent(this, RegisterActivity::class.java)
                 startActivity(intent)
             }

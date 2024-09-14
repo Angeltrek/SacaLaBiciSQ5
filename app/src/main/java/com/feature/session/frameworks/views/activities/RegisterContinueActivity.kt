@@ -16,12 +16,12 @@ class RegisterContinueActivity : AppCompatActivity() {
 
         initializeBinding()
 
-//        binding.bFinalizar.setOnClickListener {
+//        binding.BFinish.setOnClickListener {
 //            val intent = Intent(this, RegisterActivity::class.java)
 //            startActivity(intent)
 //        }
 
-        binding.bBack.setOnClickListener {
+        binding.BBack.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }

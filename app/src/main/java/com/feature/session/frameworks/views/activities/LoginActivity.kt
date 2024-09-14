@@ -17,7 +17,7 @@ class LoginActivity: AppCompatActivity() {
         initializeBinding()
 
 
-        binding.bBack.setOnClickListener {
+        binding.BBack.setOnClickListener {
             val intent = Intent(this, SessionActivity::class.java)
             startActivity(intent)
         }

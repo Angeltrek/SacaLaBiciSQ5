@@ -34,17 +34,17 @@ class RegisterActivity : AppCompatActivity() {
 
         initializeBinding()
 
-        binding.bContinue.setOnClickListener {
+        binding.BContinue.setOnClickListener {
             val intent = Intent(this, RegisterContinueActivity::class.java)
             startActivity(intent)
         }
 
-        binding.bBack.setOnClickListener {
+        binding.BBack.setOnClickListener {
             val intent = Intent(this, SessionActivity::class.java)
             startActivity(intent)
         }
 
-        binding.bFecha.setOnClickListener {
+        binding.BDate.setOnClickListener {
             DatePickerDialog(
                 this,
                 fecha,
@@ -65,6 +65,6 @@ class RegisterActivity : AppCompatActivity() {
     private fun actualizarFecha(calendario: Calendar) {
         val formatoFecha = "dd/MM/yyyy"
         val foramtoSimple = SimpleDateFormat(formatoFecha, Locale.ENGLISH)
-        binding.txtFecha.text = foramtoSimple.format(calendario.time)
+        binding.BDate.text = foramtoSimple.format(calendario.time)
     }
 }

@@ -21,7 +21,7 @@ class MainActivity: AppCompatActivity() {
 
         initializeBinding()
 
-        val loadingSpinner = findViewById<ProgressBar>(R.id.loading_spinner)
+        val loadingSpinner = findViewById<ProgressBar>(R.id.PBLoading)
         loadingSpinner.visibility = View.VISIBLE
 
         Handler(Looper.getMainLooper()).postDelayed({
