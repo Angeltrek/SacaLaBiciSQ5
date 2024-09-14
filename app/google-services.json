@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643108103793",
+    "firebase_url": "https://sq5-saca-la-bici-default-rtdb.firebaseio.com",
+    "project_id": "sq5-saca-la-bici",
+    "storage_bucket": "sq5-saca-la-bici.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643108103793:android:29aee1a95946bd72c95dd0",
+        "android_client_info": {
+          "package_name": "com.feature.session"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643108103793-pm9131opj6n8bscoon2a5mk78l9oc9jo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.feature.session",
+            "certificate_hash": "f8c7eb957605abca4ea3dcc815904b7e60baeb96"
+          }
+        },
+        {
+          "client_id": "643108103793-lug8dsk15bj24qlr6f6kgrp2t662r6bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcNvOQ3CezZ5TEd6z9x_L51QjaMLn1SmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643108103793-lug8dsk15bj24qlr6f6kgrp2t662r6bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
